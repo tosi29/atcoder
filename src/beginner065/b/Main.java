@@ -1,3 +1,5 @@
+package beginner065.b;
+
 import java.util.BitSet;
 import java.util.Scanner;
 

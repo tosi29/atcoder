@@ -1,3 +1,5 @@
+package beginner065.c;
+
 import java.util.Scanner;
 
 
