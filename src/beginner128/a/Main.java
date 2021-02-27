@@ -3,8 +3,10 @@ package beginner128.a;
 import java.util.Scanner;
 
 public class Main {
+	private static Scanner sc;
+
 	public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
         String line = sc.nextLine();
  
         String[] split = line.split(" ");
