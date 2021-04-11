@@ -2,13 +2,11 @@ import bisect
 
 n = int(input())
 A = []
-colors = []
 
 for i in range(n):
     A.append(int(input()))
 
-colors.append(A[0])
-
+colors = [A[0]]
 for i in A[1:]:
     target_index = bisect.bisect_left(colors, i) - 1
     if target_index < 0:
