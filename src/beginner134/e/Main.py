@@ -11,7 +11,7 @@ for i in A:
     target_index = bisect.bisect_left(colors, i) - 1
     if target_index < 0:
         colors.insert(0, i)
-    elif colors[target_index] < i:
+    else:
         colors[target_index] = i
 
 print(len(colors))
