@@ -21,10 +21,10 @@ else:
         digits = [i%10, math.floor(i%100/10), math.floor(i%1000/100), math.floor(i%10000/1000)]
         flag = True
         for j in o:
-            if (j in digits) == False:
+            if j not in digits:
                 flag = False
         for j in x:
-            if (j in digits) == True:
+            if j in digits:
                 flag = False
         if flag == True:
             count += 1
